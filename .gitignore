@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+.pytest_cache/
+.mypy_cache/
+.coverage
+*.pyc
+*.pyo
+*.pyd
+
+# Private or generated local data
+name.*
+passwd*
+attendance_scores*
+si120attendence_result_*
+*.xlsx
+*.xls
+*.xlsm
+*.csv
+!round_windows.csv
+*_metadata.json
+*_check.xlsx
+*_check.csv
+*.zip
+*:Zone.Identifier
+tmp_csv/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
